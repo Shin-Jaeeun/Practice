@@ -14,8 +14,9 @@ for i in range(R):
     if arr[i][0] == -1:
         air.append(i)
 
-# 미세번지 확산
+# 미세먼지 확산
 def spread():
+    # 매번 새로운 빈 temp 만들어줌 .. .. 이거 땜에 시간 그 난리인가
     temp = [[0] * C for _ in range(R)]
     for i in range(R):
         for j in range(C):
